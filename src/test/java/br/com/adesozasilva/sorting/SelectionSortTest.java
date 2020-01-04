@@ -1,14 +1,15 @@
-package br.com.adesozasilva;
+package br.com.adesozasilva.sorting;
 
 import java.util.Arrays;
 
 import org.junit.Test;
 
-public class MergeSortTest {
+import br.com.adesozasilva.sorting.SelectionSort;
+
+public class SelectionSortTest {
 
 	@Test
 	public void testOrdena() {
-
 		String[] nomes = {
 				"Andressa",
 				"Camila",
@@ -21,9 +22,9 @@ public class MergeSortTest {
 				"Paloma",
 				"Paulo"
 		};
-
-		MergeSort mergeSort = new MergeSort();
-		String[] ordena = mergeSort.ordena(nomes, 0, nomes.length);
-		Arrays.asList(ordena).forEach(System.out::println);
+		SelectionSort sort = new SelectionSort();
+		sort.execute(nomes);
+		Arrays.asList(nomes).forEach(System.out::println);
 	}
+
 }

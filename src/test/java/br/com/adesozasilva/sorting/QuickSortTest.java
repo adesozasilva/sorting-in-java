@@ -1,12 +1,10 @@
-package br.com.adesozasilva;
-
-import static org.junit.Assert.*;
+package br.com.adesozasilva.sorting;
 
 import java.util.Arrays;
 
 import org.junit.Test;
 
-import br.com.adesozasilva.model.Produto;
+import br.com.adesozasilva.sorting.QuickSort;
 
 public class QuickSortTest {
 

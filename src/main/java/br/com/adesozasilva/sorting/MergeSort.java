@@ -1,4 +1,4 @@
-package br.com.adesozasilva;
+package br.com.adesozasilva.sorting;
 
 public class MergeSort {
 	
